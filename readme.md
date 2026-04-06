@@ -58,10 +58,10 @@ static const uint8_t my_icon[] PROGMEM =      //my_icon，32*32
 请输入图像宽度【数字】或【拖入图片文件】: logo.png
 图片尺寸: 64 x 64，已编码完毕。
 
-请输入数组名称（直接按回车仅复制数组内容）: logo_64x64
+请输入数组名称（直接按回车仅复制数组内容）: logo
 
 生成的模板数组:
-static const uint8_t logo_64x64[] PROGMEM =      //logo_64x64，64*64
+static const uint8_t logo[] PROGMEM =      //logo_64x64，64*64
 {
   0x00, 0x01, ...
 };
